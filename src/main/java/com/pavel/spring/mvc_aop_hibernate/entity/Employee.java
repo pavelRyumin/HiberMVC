@@ -1,6 +1,6 @@
 package com.pavel.spring.mvc_aop_hibernate.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "employees")

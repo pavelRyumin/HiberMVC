@@ -16,7 +16,7 @@
         <th>Salary</th>
     </tr>
 
-    <c:forEach var="emp" items="S{allEmps}">
+    <c:forEach items="${allEmps}" var="emp">
 
         <tr>
             <td>${emp.name}</td>
